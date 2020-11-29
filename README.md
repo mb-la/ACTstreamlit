@@ -6,4 +6,6 @@ View this app in action here.
 
 ## Demo
 
-Here is a demo on how to use this app.
+Here is a demo on how to use this app:
+
+(streamlit-act_app-2020-11-29-14-11-97.webm)
