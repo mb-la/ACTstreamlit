@@ -9,6 +9,7 @@ import plotly.express as px
 st.title("Exploratory Data Analysis on ACT Scores")
 st.sidebar.title("EDA on ACT Scores")
 st.sidebar.subheader("By [Meral Balik](https://github.com/Meralbalik)")
+st.sidebar.markdown("[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Meralbalik/ACTstreamlit)")
 st.markdown("This application is a Streamlit dashboard that visualizes exploratory analysis on ACT scores of high schools in CA. The ACT test is designed to assess high school students' general educational development and their ability to complete college-level work. ACT test covers four subject areas: English, mathematics, reading, and science. Each subject area test receives a score ranging from 1 to 36. ")
 st.sidebar.markdown("This application is a Streamlit dashboard that visualizes exploratory analysis on ACT scores of high schools in CA.")
 
@@ -128,5 +129,3 @@ map_3d = pdk.Deck(map_style="mapbox://styles/mapbox/light-v9",  layers=[layer], 
     tooltip={"html": "<b>Elevation Value:</b> {elevationValue}", "style": {"color": "white"}})
 st.write(map_3d)
 #------------------------------------------------------------------------------------------------------------------
-import pydeck
-st.write(pydeck.__version__)
