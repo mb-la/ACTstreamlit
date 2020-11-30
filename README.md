@@ -7,4 +7,4 @@ View this app in action here.
 ## Demo
 
 Here is a demo on how to use this app:
-![Demo](demo/demo.gif)
+![Demo](act_demo.gif)
