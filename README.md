@@ -7,5 +7,4 @@ View this app in action here.
 ## Demo
 
 Here is a demo on how to use this app:
-
-(file:///Users/meralbalik/Downloads/actdemo.webm)
+![Demo](demo/demo.gif)
